@@ -38,10 +38,10 @@ public class InputManager : MonoBehaviour
         {
             if (context.action.name == "down")
             {
-                moveDirection = new Vector2(0, 10);
+                moveDirection = new Vector2(0, -1);
             } else
             {
-                moveDirection = new Vector2(0, -10);
+                moveDirection = new Vector2(0, 1);
             }
             //moveDirection = context.ReadValue<Vector2>();
         }
@@ -49,11 +49,11 @@ public class InputManager : MonoBehaviour
         {
             if (context.action.name == "down")
             {
-                moveDirection = new Vector2(0, 10);
+                moveDirection = new Vector2(0, 0);
             }
             else
             {
-                moveDirection = new Vector2(0, -10);
+                moveDirection = new Vector2(0, 0);
             }
             //Debug.Log(context.action.name);
             //moveDirection = context.ReadValue<Vector2>();
