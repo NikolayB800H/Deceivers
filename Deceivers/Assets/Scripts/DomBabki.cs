@@ -7,7 +7,7 @@ public class DomBabki : MonoBehaviour
 
     public Sprite highlightSprite; // ÷вет подсветки (можете выбрать другой)
     private SpriteRenderer spriteRenderer;
-
+    public GameObject quest2Send;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,7 @@ public class DomBabki : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 spriteRenderer.sprite = highlightSprite;
+                quest2Send.SetActive(true);
             }
         }
     }
