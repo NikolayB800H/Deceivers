@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - DontDestroySound
+  - HideTag
+  - HideTag2
   layers:
   - Default
   - TransparentFX
