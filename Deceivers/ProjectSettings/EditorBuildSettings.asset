@@ -6,6 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Menu.unity
+    guid: 768197df1a7b24daa90cd627d735e4ad
+  - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 940c05a24f01c4db886ca84c70d0bd47
+  - enabled: 1
+    path: "Assets/Scenes/Gameplay(\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435
+      \u0435\u0435 \u0434\u043B\u044F \u043C\u0443\u0437\u044B\u043A\u0438!).unity"
+    guid: 7566fbb2a673c4ee4b31e20fd9cbdfbc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay2(JustTest).unity
+    guid: 8edddb9c78cc34c06b01aaca132afa7f
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: a23663888801e45b5b70a5d19df5f9fc
   m_configObjects: {}
