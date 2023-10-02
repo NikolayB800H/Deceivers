@@ -1,0 +1,114 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "game",
+            "id": "8d12e36a-5746-4ef6-afa1-cd0e6e2ac3a7",
+            "actions": [
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "b65fcf60-e3b9-457f-8fa6-3e9ee303eec8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "interact",
+                    "type": "Button",
+                    "id": "21c2328f-02cd-46da-a3d8-71322eba9940",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "submit",
+                    "type": "Button",
+                    "id": "6754d8d0-bce4-4a4a-bdd9-bfc07b4b5706",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "up",
+                    "type": "Button",
+                    "id": "54e11471-b263-4617-868e-5b7094101c1b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "down",
+                    "type": "Button",
+                    "id": "da2e8404-8e52-473a-80db-566e8afb7f34",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0360696d-65ed-41b6-94d6-d23d12fb06fd",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cb0687d-7900-4bfb-8b4b-ad96c67cc926",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f63a78a-a870-48d7-a66c-fd8b87bb104d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ccab3ee-12c8-442b-b6d9-9f56582aeec5",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "650da55f-0f66-4690-8f06-56e15aa8a049",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
